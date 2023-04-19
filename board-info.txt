@@ -1,1 +1,1 @@
-require board=holi|OnePlusN200
+require board=holi|gunnar|OP5159L1|OP515AL1

@@ -18,23 +18,26 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from dre device
-$(call inherit-product, device/oneplus/dre/device.mk)
+# Inherit from gunnar device
+$(call inherit-product, device/oneplus/gunnar/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dre
-PRODUCT_DEVICE := dre
+PRODUCT_NAME := lineage_gunnar
+PRODUCT_DEVICE := gunnar
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := DE2117
+PRODUCT_MODEL := CPH2459
+
+PRODUCT_SYSTEM_NAME := CPH2459
+PRODUCT_SYSTEM_DEVICE := OP5159L1
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlusN200-user 12 SKQ1.210216.001 f82603_2e011_27aea release-keys" \
-    TARGET_DEVICE=OnePlusN200 \
-    TARGET_PRODUCT=OnePlusN200
+    PRIVATE_BUILD_DESC="CPH2459-user 12 RKQ1.211119.001 eeacd4-1dc76-899 release-keys" \
+    TARGET_DEVICE=$(PRODUCT_SYSTEM_NAME) \
+    TARGET_PRODUCT=$(PRODUCT_SYSTEM_DEVICE)
 
-BUILD_FINGERPRINT := OnePlus/OnePlusN200/OnePlusN200:12/SKQ1.210216.001/R.202304131655:user/release-keys
+BUILD_FINGERPRINT := OnePlus/CPH2459/OP5159L1:12/RKQ1.211119.001/eeacd4-1dc76-899:user/release-keys

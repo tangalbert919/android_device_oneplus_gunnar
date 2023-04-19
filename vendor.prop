@@ -81,7 +81,7 @@ persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 
 # Chipset
 ro.soc.manufacturer=Qualcomm
-ro.soc.model=SM4350
+ro.soc.model=SM6375
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
