@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     WifiResTarget
 
