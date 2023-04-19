@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2022 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dre.mk
+    $(LOCAL_DIR)/lineage_gunnar.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_dre-user \
-    lineage_dre-userdebug \
-    lineage_dre-eng
+    lineage_gunnar-user \
+    lineage_gunnar-userdebug \
+    lineage_gunnar-eng
