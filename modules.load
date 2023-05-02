@@ -13,7 +13,7 @@ wcd_core_dlkm.ko
 wcd937x_dlkm.ko
 adsp_loader_dlkm.ko
 q6_dlkm.ko
-sia81xx_dlkm.ko
+tfa98xx-v6_dlkm.ko
 mbhc_dlkm.ko
 swr_ctrl_dlkm.ko
 rdbg.ko
