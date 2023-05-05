@@ -94,7 +94,7 @@
          <value>2</value> // cluster 1 has cpu4, cpu5
        </array> -->
   <array name="cpu.clusters.cores">
-      <value>4</value> <!-- cluster 0 has cpu0, cpu1, cpu2, cpu3, cpu4, cpu5 -->
+      <value>6</value> <!-- cluster 0 has cpu0, cpu1, cpu2, cpu3, cpu4, cpu5 -->
       <value>2</value> <!-- cluster 1 has  cpu6, cpu7 -->
   </array>
 
