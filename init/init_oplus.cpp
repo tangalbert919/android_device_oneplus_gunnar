@@ -72,9 +72,9 @@ void OverrideCarrierProperties() {
  */
 void vendor_load_properties() {
     //auto device = GetProperty("ro.product.product.device", "");
-    auto prj_codename = GetProperty("ro.boot.project_codename", "");
+    auto prjname = std::stoi(GetProperty("ro.boot.prjname", "0"));
 
-    // T-Mobile (dre8t) or Metro by T-Mobile (dre8m)
-    if (prj_codename != "dre9")
+    // T-Mobile (20826)
+    if (prjname == 20826)
         OverrideCarrierProperties();
 }
