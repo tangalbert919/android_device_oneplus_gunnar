@@ -11,8 +11,8 @@
 
 using android::base::GetProperty;
 
-constexpr const char* BUILD_DESCRIPTION = "GN2200-user 12 RKQ1.211119.001 133d3fa_15423_1 release-keys";
-constexpr const char* BUILD_FINGERPRINT = "OnePlus/GN2200/OP515AL1:12/RKQ1.211119.001/133d3fa_15423_1:user/release-keys";
+constexpr const char* BUILD_DESCRIPTION = "GN2200-user 12 RKQ1.211119.001 1476d99-1-34680 release-keys";
+constexpr const char* BUILD_FINGERPRINT = "OnePlus/GN2200/OP515AL1:12/RKQ1.211119.001/1476d99-1-34680:user/release-keys";
 
 constexpr const char* RO_PROP_SOURCES[] = {
     nullptr,
